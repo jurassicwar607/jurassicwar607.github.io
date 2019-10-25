@@ -11,7 +11,7 @@ function sumaPunts(){
   
   document.getElementById("player").style.marginTop =randNum + "px";
   document.getElementById("player").style.marginLeft =randNum2 + "px";
-  if (punts == 45) {
+  if (punts == necessari) {
     alert("T'HA COSTAT PERO MIRA COM HO HAS ACONSEGUIT DEMOSTRA QUE ETS MES LLEST QUE UN ORANGUTAN");
     punts = 0;
     temps = 60;
